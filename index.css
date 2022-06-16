@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+h1{
+    border-style: outset;
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -30,7 +34,7 @@ button{
 }
 
 button:hover{
-    background-color: rgb(255, 255, 255)
+    background-color: rgb(71, 97, 245)
 }
 
 .container{
@@ -306,6 +310,11 @@ footer .container{
         margin-top: 0;
     }
 
+    #portafolios a{
+        text-decoration: none;
+        color: white;
+    }
+
     #portafolios .carta{
         padding: 50px;
         background-size: 100% 150px;
@@ -353,6 +362,7 @@ footer .container{
     }
     #contactos h2{
         font-size: 5em;
+        text-align: center;
     }
 
     #contactos button{
