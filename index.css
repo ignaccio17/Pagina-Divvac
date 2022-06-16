@@ -384,4 +384,13 @@ footer .container{
         #contactos{
             background-position-x: calc(100vw - 800px);
         }
+        h3{
+            text-shadow: 2px 2px 5px rgb(0, 0, 0);
+            text-decoration-line: underline;
+            text-decoration-style: solid;
+        }
+
+        p{
+            text-shadow: 2px 2px 5px rgb(0, 0, 0);
+        }
 }
