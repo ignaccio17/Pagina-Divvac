@@ -505,6 +505,11 @@ footer .container{
         margin-top: 0;
     }
 
+    #portafolios a{
+        text-decoration: none;
+        color: white;
+    }
+
     #portafolios .carta{
         padding: 50px;
         background-size: 100% 150px;
@@ -595,8 +600,7 @@ footer .container{
     #contactos h2{
         font-size: 5em;
         text-align: center;
-    }
-
+      
     #contactos input{
         margin-left: 1400px;
         margin-top: 10px;
@@ -625,3 +629,13 @@ footer .container{
             background-position-x: calc(100vw - 800px);
         }
     }
+        h3{
+            text-shadow: 2px 2px 5px rgb(0, 0, 0);
+            text-decoration-line: underline;
+            text-decoration-style: solid;
+        }
+
+        p{
+            text-shadow: 2px 2px 5px rgb(0, 0, 0);
+        }
+}
