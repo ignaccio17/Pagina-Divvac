@@ -1,0 +1,249 @@
+    .container{
+        max-width: 1400px;
+        margin: auto;
+    }
+    
+    img{
+        width: 90px;
+        height: 90px;
+        margin-right: 20px;
+    }
+    
+    header{
+        position: relative;
+        width: 100%;
+    }
+    
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+    
+    header{
+        background-color: #fff;
+        
+    }
+    
+    
+    
+    header .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    header nav{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 25px;
+    }
+    
+    header a{
+        padding: 5px 12px;
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+    }
+    
+    header a:hover{
+        color: rgb(22, 7, 228);
+    }
+    
+    /*--------------------------------------------------------------------------------------------------------*/
+    
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+        background: #111;
+    }
+    
+    h1 { 
+        text-align: center;
+        color: #eee;
+    }
+    
+    .circular-progress,.circular-progress::after,.circular-progress::before{
+        width: 12rem;
+        height: 12rem;
+        border-radius: 50%;
+    }
+    
+    .circular-progress::after,.circular-progress::before{
+        position: absolute;
+        top:0;
+        left:0;
+        text-align: center;
+        color: rgb(16, 81, 167);
+    }
+    
+    .circular-progress {
+        margin: auto;
+        background: linear-gradient(
+        rgba(11, 43, 112, 0.253)50%,
+        rgb(16, 81, 167) 50%);
+        position: relative;
+        transform: rotate(160deg);
+    }
+    
+    .circular-progress::before{
+        content:"PagWeb";
+        background:#111 content-box;
+        padding:.5em;
+        box-sizing: border-box;
+        font-size: 2rem;
+        line-height: 6rem;
+        transform: rotate(-160deg);
+    }
+    
+    .circular-progress::after{
+        content:"85%";
+        background: linear-gradient(
+            transparent 50%,
+            #111 50%
+        );
+        transform: scale(1.1) rotate(-160deg);
+        line-height: 13rem;
+    }
+    
+    /*--------------------------------------------------------------------------------------------------------*/
+    
+    .router,.router::after,.router::before{
+        width: 12rem;
+        height: 12rem;
+        border-radius: 50%;
+    }
+    
+    .router::after,.router::before{
+        position: absolute;
+        top:0;
+        left:0;
+        text-align: center;
+        color: rgb(12, 170, 72);
+    }
+    
+    .router {
+        margin: auto;
+        background: linear-gradient(
+        rgba(11, 112, 61, 0.253)50%,
+        rgb(12, 170, 72) 50%);
+        position: relative;
+        transform: rotate(140deg);
+    }
+    
+    .router::before{
+        content:"Router";
+        background:#111 content-box;
+        padding:.5em;
+        box-sizing: border-box;
+        font-size: 2rem;
+        line-height: 6rem;
+        transform: rotate(-140deg);
+    }
+    
+    .router::after{
+        content:"75%";
+        background: linear-gradient(
+            transparent 50%,
+            #111 50%
+        );
+        transform: scale(1.1) rotate(-140deg);
+        line-height: 13rem;
+    }
+    
+    /*--------------------------------------------------------------------------------------------------------*/
+    
+    .mantenimiento,.mantenimiento::after,.mantenimiento::before{
+        width: 12rem;
+        height: 12rem;
+        border-radius: 50%;
+    }
+    
+    .mantenimiento::after,.mantenimiento::before{
+        position: absolute;
+        top:0;
+        left:0;
+        text-align: center;
+        color: rgb(170, 154, 12);
+    }
+    
+    .mantenimiento {
+        margin: auto;
+        background: linear-gradient(
+        rgba(112, 97, 11, 0.253)50%,
+        rgb(170, 154, 12) 50%);
+        position: relative;
+        transform: rotate(75deg);
+    }
+    
+    .mantenimiento::before{
+        content:"Mant.";
+        background:#111 content-box;
+        padding:.5em;
+        box-sizing: border-box;
+        font-size: 2rem;
+        line-height: 6rem;
+        transform: rotate(-75deg);
+    }
+    
+    .mantenimiento::after{
+        content:"45%";
+        background: linear-gradient(
+            transparent 50%,
+            #111 50%
+        );
+        transform: scale(1.1) rotate(-75deg);
+        line-height: 13rem;
+    }
+    
+    /*--------------------------------------------------------------------------------------------------------*/
+    
+    .software,.software::after,.software::before{
+        width: 12rem;
+        height: 12rem;
+        border-radius: 50%;
+    }
+    
+    .software::after,.software::before{
+        position: absolute;
+        top:0;
+        left:0;
+        text-align: center;
+        color: rgb(221, 8, 8);
+    }
+    
+    .software {
+        margin: auto;
+        background: linear-gradient(
+        rgba(247, 5, 5, 0.253)50%,
+        rgb(221, 8, 8) 50%);
+        position: relative;
+        transform: rotate(95deg);
+    }
+    
+    .software::before{
+        content:"Software";
+        background:#111 content-box;
+        padding:.5em;
+        box-sizing: border-box;
+        font-size: 2rem;
+        line-height: 6rem;
+        transform: rotate(-95deg);
+    }
+    
+    .software::after{
+        content:"55%";
+        background: linear-gradient(
+            transparent 50%,
+            #111 50%
+        );
+        transform: scale(1.1) rotate(-95deg);
+        line-height: 13rem;
+    }

@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="icon" href="img/Logo_DIVVAC_photo-removebg-preview.png">
     <title>Divvac</title>
     <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
     <header>
         <div class="container">
-            <div class="logo"></div>
+            <div class="logo">
+                <a href="index.html"> <img src="img/Logo_DIVVAC_photo-removebg-preview.png"></a>
+            </div>
             <nav>
+                <a href="#hero">Inicio</a>
+                <a>|</a>
                 <a href="#somos-divvac">Quienes Somos</a>
                 <a>|</a>
                 <a href="#nuestros-servicios">Servicios</a>
@@ -19,6 +25,7 @@
                 <a href="#contactos">Contactos</a>
             </nav>
         </div>
+
     </header>
 
     <section id="hero">
@@ -29,12 +36,12 @@
             <div class="img-container"></div>
             <div class="texto">
                 <h2>¿Quienes Somos?</h2>
-                <p>Somos una empresa que se centra en la tecnología actual, hemos participado 
-                    en grandes proyectos y vendido soluciones a extensa multitud de empresas 
-                    y personas. Contamos con un grupo de trabajo todos capacitados en cada una 
+                <p>Somos una empresa que se centra en la tecnología actual, hemos participado
+                    en grandes proyectos y vendido soluciones a extensa multitud de empresas
+                    y personas. Contamos con un grupo de trabajo todos capacitados en cada una
                     de las áreas que ofrecemos, desde ingenieros a técnicos con vasto
                     años de experiencia, tambien trabajamos con todas las certificaciones requeridas,
-                    brindando nuestros servicios a todo tipo de público siempre profesionalmente 
+                    brindando nuestros servicios a todo tipo de público siempre profesionalmente
                     y con la más buena atención.</p>
             </div>
         </div>
@@ -87,18 +94,35 @@
                     <form action="">
                         <button type="submit=">2 UF</button>
                     </form>
-                </div> 
+                </div>
             </div>
             <div class="carta3">
                 <form action="Graficos-clientes.html">
                     <button type="submit=">Graficos y Clientes</button>
-        </div>
+            </div>
     </section>
 
     <section id="portafolios">
         <div class="container">
             <h2>Nosotros</h2>
             <div class="programas">
+                <div class="carta">
+                    <h3>Alanis Bacho</h3>
+                    <p>Tecnico en Computacion</p>
+
+                    <label for="file">Actualizacion de FW</label>
+                    <progress id="file" max="100" value="85"> 85% </progress>
+                    <label for="file">Actualizacion S.O</label>
+                    <progress id="file" max="100" value="100"> 100% </progress>
+                    <label for="file">Instalacion de Software de Ofimatica</label>
+                    <progress id="file" max="100" value="100"> 100% </progress>
+                    <label for="file">Instalacion y Configuración de Perifericos</label>
+                    <progress id="file" max="100" value="100"> 100% </progress>
+
+                    <form action="Dilan/index-DilanF.html">
+                        <button type="submit=">Portafolio</button>
+                    </form>
+                </div>
                 <div class="carta">
                     <h3>Ignacio Barriga</h3>
                     <p>Programador Full Stack</p>
@@ -110,9 +134,26 @@
                     <label for="file">JS</label>
                     <progress id="file" max="100" value="80"> 80% </progress>
                     <label for="file">PHP</label>
+                    <progress id="file" max="100" value="60"> 100% </progress>
+
+                    <form action="Portafolio-Ignacio/index.html">
+                        <button type="submit=">Portafolio</button>
+                    </form>
+                </div>
+                <div class="carta">
+                    <h3>Diego Quinteros</h3>
+                    <p>Programador Full Stack</p>
+
+                    <label for="file">HTML</label>
+                    <progress id="file" max="100" value="100"> 100% </progress>
+                    <label for="file">CSS</label>
+                    <progress id="file" max="100" value="100"> 100% </progress>
+                    <label for="file">JS</label>
+                    <progress id="file" max="100" value="80"> 80% </progress>
+                    <label for="file">PHP</label>
                     <progress id="file" max="100" value="60"> 60% </progress>
 
-                    <form action="Ignacio/Portafolio.html">
+                    <form action="Diego/index3.html">
                         <button type="submit=">Portafolio</button>
                     </form>
                 </div>
@@ -130,23 +171,6 @@
                     <progress id="file" max="100" value="70"> 70% </progress>
 
                     <form action="Dilan/index-DilanF.html">
-                        <button type="submit=">Portafolio</button>
-                    </form>
-                </div>
-                <div class="carta">
-                    <h3>Vania Muñoz</h3>
-                    <p>Ingeniera en Telecomunicaciones</p>
-
-                    <label for="file">Diseño de sistemas de Comunicaciones</label>
-                    <progress id="file" max="100" value="95"> 95% </progress>
-                    <label for="file">Desarrollo de sistemas de Comunicaciones</label>
-                    <progress id="file" max="100" value="90"> 90% </progress>
-                    <label for="file">Configuracion de una Red</label>
-                    <progress id="file" max="100" value="100"> 100% </progress>
-                    <label for="file">Instalacion y Configuracion de un Router</label>
-                    <progress id="file" max="100" value="100"> 100% </progress>
-
-                    <form action="Vania/portafolio.html">
                         <button type="submit=">Portafolio</button>
                     </form>
                 </div>
@@ -185,19 +209,19 @@
                     </form>
                 </div>
                 <div class="carta">
-                    <h3>Alanis Bacho</h3>
-                    <p>Tecnico en Computacion</p>
+                    <h3>Vania Muñoz</h3>
+                    <p>Ingeniera en Telecomunicaciones</p>
 
-                    <label for="file">Actualizacion de FW</label>
-                    <progress id="file" max="100" value="85"> 85% </progress>
-                    <label for="file">Actualizacion S.O</label>
+                    <label for="file">Diseño de sistemas de Comunicaciones</label>
+                    <progress id="file" max="100" value="95"> 95% </progress>
+                    <label for="file">Desarrollo de sistemas de Comunicaciones</label>
+                    <progress id="file" max="100" value="90"> 90% </progress>
+                    <label for="file">Configuracion de una Red</label>
                     <progress id="file" max="100" value="100"> 100% </progress>
-                    <label for="file">Instalacion de Software de Ofimatica</label>
-                    <progress id="file" max="100" value="100"> 100% </progress>
-                    <label for="file">Instalacion y Configuración de Perifericos</label>
+                    <label for="file">Instalacion y Configuracion de un Router</label>
                     <progress id="file" max="100" value="100"> 100% </progress>
 
-                    <form action="Dilan/index-DilanF.html">
+                    <form action="Vania/portafolio.html">
                         <button type="submit=">Portafolio</button>
                     </form>
                 </div>
@@ -213,7 +237,7 @@
                     <th>Contacto</th>
                 </tr>
                 <tr>
-                    <td><a href="https://mail.google.com/mail/u/0/#inbox">📩divvacoficial@gmail.com</a></td>
+                    <td href="google.com">📩divvacoficial@gmail.com</td>
                 </tr>
                 <tr>
                     <td>📞(+56) 2 2235 7877</td>
@@ -222,18 +246,22 @@
                     <td>📞(+56) 2 0279 9962</td>
                 </tr>
             </table>
-    
-            <strong><p>Reportar un problema</p></strong>
-            
-            <textarea name="comment" cols="37" rows="7"></textarea>
-    
-                <input type="submit" value="Send Message">
-    
-        </section>
 
+            <strong>
+                <p>Reportar un problema</p>
+            </strong>
+
+            <textarea class="form-control" name="message" id="message" cols="47" rows="10"
+                placeholder="Mensaje"></textarea>
+            <div class="text-center"><button type="submit">
+                    <h4>Enviar Mensaje</h4>
+                </button>
+        </section>
+        
         <div class="container">
             <p>&copy; DIVVAC 2022</p>
         </div>
     </footer>
 </body>
+
 </html>
